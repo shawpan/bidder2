@@ -1,0 +1,179 @@
+{
+    "columns": {
+        "all": [
+            "deliveryid",
+            "dayofweek",
+            "hour",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "pub_as_viewrate",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "ad_imptype",
+            "user_id",
+            "ad_formatid",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "imp_0",
+            "click",
+            "dayofweek_hour",
+            "domain_position",
+            "weight"
+        ],
+        "categorical": [
+            "deliveryid",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "ad_imptype",
+            "user_id",
+            "ad_formatid",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "domain_position"
+        ],
+        "numeric": [
+            "dayofweek",
+            "hour",
+            "pub_as_viewrate",
+            "imp_0",
+            "click",
+            "dayofweek_hour",
+            "weight"
+        ]
+    },
+    "stats": {
+        "dayofweek": {
+            "count": 7916003.0,
+            "mean": 3.2206511291,
+            "std": 1.8742791831,
+            "min": 0.0,
+            "max": 6.0
+        },
+        "hour": {
+            "count": 7916003.0,
+            "mean": 14.711675703,
+            "std": 5.7617827421,
+            "min": 0.0,
+            "max": 23.0
+        },
+        "pub_as_viewrate": {
+            "count": 7916003.0,
+            "mean": 0.5585495148,
+            "std": 0.1710464979,
+            "min": 0.0,
+            "max": 0.9829101562
+        },
+        "imp_0": {
+            "count": 7916003.0,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+        },
+        "click": {
+            "count": 7916003.0,
+            "mean": 0.0016066189,
+            "std": 0.0400504416,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "dayofweek_hour": {
+            "count": 7916003.0,
+            "mean": 92.0073028017,
+            "std": 44.9795286328,
+            "min": 0.0,
+            "max": 167.0
+        },
+        "weight": {
+            "count": 7916003.0,
+            "mean": 0.9948724183,
+            "std": 11.0082098095,
+            "min": 0.5007992574,
+            "max": 313.2454714685
+        },
+        "deliveryid": {
+            "count": 7916003,
+            "unique": 7916003
+        },
+        "pub_sspid": {
+            "count": 7916003,
+            "unique": 4
+        },
+        "pub_as_adspaceid": {
+            "count": 7916003,
+            "unique": 127
+        },
+        "pub_as_domain": {
+            "count": 7916003,
+            "unique": 104
+        },
+        "pub_as_dimensions": {
+            "count": 7916003,
+            "unique": 20
+        },
+        "pub_as_position": {
+            "count": 7916003,
+            "unique": 5
+        },
+        "device_os": {
+            "count": 7916003,
+            "unique": 16
+        },
+        "device_model": {
+            "count": 7916003,
+            "unique": 60
+        },
+        "user_ip": {
+            "count": 7916003,
+            "unique": 2004234
+        },
+        "user_market": {
+            "count": 7916003,
+            "unique": 9
+        },
+        "user_city": {
+            "count": 7916003,
+            "unique": 67
+        },
+        "ad_imptype": {
+            "count": 7916003,
+            "unique": 5
+        },
+        "user_id": {
+            "count": 7916003,
+            "unique": 1
+        },
+        "ad_formatid": {
+            "count": 7916003,
+            "unique": 3
+        },
+        "pub_as_iabcategoryid": {
+            "count": 7916003,
+            "unique": 13
+        },
+        "req_auctiontype": {
+            "count": 7916003,
+            "unique": 2
+        },
+        "domain_position": {
+            "count": 7916003,
+            "unique": 894
+        }
+    },
+    "positive": 12718.0,
+    "total": 7916003.0
+}

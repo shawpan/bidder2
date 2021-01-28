@@ -1,0 +1,318 @@
+{
+    "columns": {
+        "all": [
+            "deliveryid",
+            "dayofweek",
+            "hour",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "pub_as_viewrate",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "ad_imptype",
+            "user_id",
+            "ad_formatid",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "imp_0",
+            "imp_1",
+            "imp_2",
+            "imp_3",
+            "imp_4",
+            "imp_5",
+            "imp_6",
+            "imp_7",
+            "imp_8",
+            "imp_9",
+            "imp_10",
+            "imp_11",
+            "imp_12",
+            "imp_13",
+            "imp_14",
+            "dayofweek_hour",
+            "domain_position",
+            "weight"
+        ],
+        "categorical": [
+            "deliveryid",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "ad_imptype",
+            "user_id",
+            "ad_formatid",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "domain_position"
+        ],
+        "numeric": [
+            "dayofweek",
+            "hour",
+            "pub_as_viewrate",
+            "imp_0",
+            "imp_1",
+            "imp_2",
+            "imp_3",
+            "imp_4",
+            "imp_5",
+            "imp_6",
+            "imp_7",
+            "imp_8",
+            "imp_9",
+            "imp_10",
+            "imp_11",
+            "imp_12",
+            "imp_13",
+            "imp_14",
+            "dayofweek_hour",
+            "weight"
+        ]
+    },
+    "stats": {
+        "dayofweek": {
+            "count": 7816296.0,
+            "mean": 3.1221674563,
+            "std": 1.7894220011,
+            "min": 0.0,
+            "max": 6.0
+        },
+        "hour": {
+            "count": 7816296.0,
+            "mean": 14.6226438968,
+            "std": 5.8334259926,
+            "min": 0.0,
+            "max": 23.0
+        },
+        "pub_as_viewrate": {
+            "count": 7816296.0,
+            "mean": 0.5496756162,
+            "std": 0.1546908484,
+            "min": 0.0,
+            "max": 0.990234375
+        },
+        "imp_0": {
+            "count": 7816296.0,
+            "mean": 1.0,
+            "std": 0.0,
+            "min": 1.0,
+            "max": 1.0
+        },
+        "imp_1": {
+            "count": 7816296.0,
+            "mean": 0.6438979537,
+            "std": 0.4788459128,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_2": {
+            "count": 7816296.0,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "imp_3": {
+            "count": 7816296.0,
+            "mean": 0.1112336329,
+            "std": 0.3144212532,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_4": {
+            "count": 7816296.0,
+            "mean": 0.2151260648,
+            "std": 0.4109097987,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_5": {
+            "count": 7816296.0,
+            "mean": 0.0,
+            "std": 0.0,
+            "min": 0.0,
+            "max": 0.0
+        },
+        "imp_6": {
+            "count": 7816296.0,
+            "mean": 0.5567152268,
+            "std": 0.4967730011,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_7": {
+            "count": 7816296.0,
+            "mean": 0.7457268763,
+            "std": 0.4354518648,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_8": {
+            "count": 7816296.0,
+            "mean": 0.0676851286,
+            "std": 0.2512048169,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_9": {
+            "count": 7816296.0,
+            "mean": 0.0515581805,
+            "std": 0.22113331,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_10": {
+            "count": 7816296.0,
+            "mean": 0.0275764889,
+            "std": 0.1637560063,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_11": {
+            "count": 7816296.0,
+            "mean": 0.1227733699,
+            "std": 0.3281769086,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_12": {
+            "count": 7816296.0,
+            "mean": 0.380727649,
+            "std": 0.48556579,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_13": {
+            "count": 7816296.0,
+            "mean": 0.378498716,
+            "std": 0.4850128535,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "imp_14": {
+            "count": 7816296.0,
+            "mean": 0.2682051703,
+            "std": 0.4430250355,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "dayofweek_hour": {
+            "count": 7816296.0,
+            "mean": 89.554662848,
+            "std": 43.1230540589,
+            "min": 0.0,
+            "max": 167.0
+        },
+        "weight": {
+            "count": 7816296.0,
+            "mean": 1.0011720581,
+            "std": 0.0632975493,
+            "min": 0.4368286445,
+            "max": 4.3240506329
+        },
+        "deliveryid": {
+            "count": 7816296,
+            "unique": 7816296
+        },
+        "pub_sspid": {
+            "count": 7816296,
+            "unique": 4
+        },
+        "pub_as_adspaceid": {
+            "count": 7816296,
+            "unique": 109
+        },
+        "pub_as_domain": {
+            "count": 7816296,
+            "unique": 93
+        },
+        "pub_as_dimensions": {
+            "count": 7816296,
+            "unique": 17
+        },
+        "pub_as_position": {
+            "count": 7816296,
+            "unique": 5
+        },
+        "device_os": {
+            "count": 7816296,
+            "unique": 13
+        },
+        "device_model": {
+            "count": 7816296,
+            "unique": 51
+        },
+        "user_ip": {
+            "count": 7816296,
+            "unique": 1736414
+        },
+        "user_market": {
+            "count": 7816296,
+            "unique": 10
+        },
+        "user_city": {
+            "count": 7816296,
+            "unique": 49
+        },
+        "ad_imptype": {
+            "count": 7816296,
+            "unique": 4
+        },
+        "user_id": {
+            "count": 7816296,
+            "unique": 1
+        },
+        "ad_formatid": {
+            "count": 7816296,
+            "unique": 3
+        },
+        "pub_as_iabcategoryid": {
+            "count": 7816296,
+            "unique": 13
+        },
+        "req_auctiontype": {
+            "count": 7816296,
+            "unique": 2
+        },
+        "domain_position": {
+            "count": 7816296,
+            "unique": 894
+        }
+    },
+    "frequencies_display_ads": {
+        "count": {
+            "[0,0,0]": 639181,
+            "[0,0,1]": 546444,
+            "[0,1,0]": 91,
+            "[0,1,1]": 1698522,
+            "[1,0,1]": 15,
+            "[1,1,1]": 83
+        }
+    },
+    "total_display_ads": 2884336,
+    "frequencies_video_ads": {
+        "count": {
+            "[0,0,0]": 801578,
+            "[0,0,1]": 401997,
+            "[0,1,0]": 41,
+            "[0,1,1]": 238401,
+            "[1,0,0]": 65,
+            "[1,0,1]": 214607,
+            "[1,1,0]": 74,
+            "[1,1,1]": 1390178
+        }
+    },
+    "total_video_ads": 3046941
+}

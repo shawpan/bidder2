@@ -1,0 +1,77 @@
+{
+  "CSV_SEPARATOR": "\t",
+  "RANDOM_SEED": 42,
+  "EPSILON": 1e-08,
+  "INFINITY": 10,
+  "PREDICT_IMP_DROPOUT": 0.0,
+  "PREDICT_IMP_ADANET_LEARNING_RATE": 1e-03,
+  "PREDICT_IMP_ADANET_ITERATIONS": 8,
+  "PREDICT_IMP_BATCH_SIZE": 1024,
+  "PREDICT_IMP_NUM_EPOCHS": 5000,
+  "PREDICT_IMP_EVAL_STEPS": 100,
+  "PREDICT_IMP_SAVE_CHECKPOINTS_STEPS": 100,
+  "PREDICT_IMP_SAVE_SUMMARY_STEPS": 100,
+  "S3_BUCKET": "wsbidder",
+  "DATA_STATS_FILE_KEY": "trainer_predict_imp/data/stats2.json",
+  "DATA_STATS_FILE": "stats2.json",
+  "DATASET_DIR": "s3://wsbidder/trainer_predict_imp/bids/",
+  "OUTPUT_DIR_PREDICT_IMP": "s3://wsbidder/trainer_predict_imp/model",
+  "WEIGHT_COLUMN" : "weight",
+  "PREDICT_IMP_NUMERIC_COLUMNS_LINEAR": [
+      "dayofweek_hour",
+      "pub_as_viewrate"
+  ],
+  "PREDICT_IMP_CATEGORICAL_COLUMNS_LINEAR": [
+      "pub_sspid",
+      "pub_as_dimensions",
+      "device_os",
+      "device_model",
+      "user_market",
+      "user_city",
+      "pub_as_adspaceid",
+      "domain_position"
+  ],
+  "PREDICT_IMP_NUMERIC_COLUMNS_DNN": [
+      "dayofweek", "hour"
+  ],
+  "PREDICT_IMP_CATEGORICAL_COLUMNS_DNN": [
+      "pub_sspid",
+      "pub_as_dimensions",
+      "device_os",
+      "device_model",
+      "user_market",
+      "user_city",
+      "pub_as_adspaceid",
+      "pub_as_domain",
+      "pub_as_position"
+  ],
+  "PREDICT_IMP_NUMERIC_COLUMNS": [
+      "dayofweek", "hour", "dayofweek_hour"
+  ],
+  "PREDICT_IMP_CATEGORICAL_COLUMNS": [
+      "pub_sspid",
+      "pub_as_dimensions",
+      "device_os",
+      "device_model",
+      "user_market",
+      "user_city",
+      "user_id",
+      "pub_as_iabcategoryid",
+      "ad_formatid",
+      "req_auctiontype",
+      "pub_as_adspaceid",
+      "pub_as_domain",
+      "pub_as_position",
+      "domain_position"
+  ],
+  "PREDICT_IMP_LABELS": [ "imp_4", "imp_6", "imp_7" ],
+  "PREDICT_IMP_DATASET_TRAIN": [
+    "/opt/ml/input/data/train"
+  ],
+  "PREDICT_IMP_DATASET_VAL": [
+    "/opt/ml/input/data/eval"
+  ],
+  "PREDICT_IMP_DATASET_TEST": [
+    "s3://wsbidder/trainer_predict_imp/data/imp_val.csv"
+  ]
+}

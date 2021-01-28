@@ -1,0 +1,165 @@
+{
+    "columns": {
+        "all": [
+            "deliveryid",
+            "dayofweek",
+            "hour",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "pub_as_viewrate",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "user_id",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "price",
+            "advcostcpm",
+            "won",
+            "targetbid",
+            "domain_position"
+        ],
+        "categorical": [
+            "deliveryid",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "user_id",
+            "pub_as_iabcategoryid",
+            "req_auctiontype",
+            "domain_position"
+        ],
+        "numeric": [
+            "dayofweek",
+            "hour",
+            "pub_as_viewrate",
+            "price",
+            "advcostcpm",
+            "won",
+            "targetbid"
+        ]
+    },
+    "stats": {
+        "dayofweek": {
+            "count": 3038413.0,
+            "mean": 3.0136337621,
+            "std": 0.1159650251,
+            "min": 3.0,
+            "max": 4.0
+        },
+        "hour": {
+            "count": 3038413.0,
+            "mean": 14.0023752531,
+            "std": 4.8909666763,
+            "min": 0.0,
+            "max": 21.0
+        },
+        "pub_as_viewrate": {
+            "count": 3038413.0,
+            "mean": 0.4802555804,
+            "std": 0.2045131753,
+            "min": 0.0,
+            "max": 0.97265625
+        },
+        "price": {
+            "count": 3038413.0,
+            "mean": 0.0306647997,
+            "std": 0.2837608731,
+            "min": 0.0,
+            "max": 10.171875
+        },
+        "advcostcpm": {
+            "count": 3038413.0,
+            "mean": 0.1311224916,
+            "std": 1.0709639801,
+            "min": 0.0,
+            "max": 14.0
+        },
+        "won": {
+            "count": 3038413.0,
+            "mean": 0.0214335576,
+            "std": 0.144824608,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "targetbid": {
+            "count": 3038413.0,
+            "mean": 0.9717714415,
+            "std": 0.9036544156,
+            "min": 0.0050010681,
+            "max": 35.8125
+        },
+        "deliveryid": {
+            "count": 3038413,
+            "unique": 3034203
+        },
+        "pub_sspid": {
+            "count": 3038413,
+            "unique": 4
+        },
+        "pub_as_adspaceid": {
+            "count": 3038413,
+            "unique": 336
+        },
+        "pub_as_domain": {
+            "count": 3038413,
+            "unique": 259
+        },
+        "pub_as_dimensions": {
+            "count": 3038413,
+            "unique": 27
+        },
+        "pub_as_position": {
+            "count": 3038413,
+            "unique": 5
+        },
+        "device_os": {
+            "count": 3038413,
+            "unique": 34
+        },
+        "device_model": {
+            "count": 3038413,
+            "unique": 352
+        },
+        "user_ip": {
+            "count": 3038413,
+            "unique": 848573
+        },
+        "user_market": {
+            "count": 3038413,
+            "unique": 11
+        },
+        "user_city": {
+            "count": 3038413,
+            "unique": 798
+        },
+        "user_id": {
+            "count": 3038413,
+            "unique": 2
+        },
+        "pub_as_iabcategoryid": {
+            "count": 3038413,
+            "unique": 23
+        },
+        "req_auctiontype": {
+            "count": 3038413,
+            "unique": 2
+        },
+        "domain_position": {
+            "count": 3038413,
+            "unique": 911
+        }
+    }
+}

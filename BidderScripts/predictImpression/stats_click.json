@@ -1,0 +1,135 @@
+{
+    "columns": {
+        "all": [
+            "deliveryid",
+            "dayofweek",
+            "hour",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "click",
+            "dayofweek_hour",
+            "domain_position",
+            "weight"
+        ],
+        "categorical": [
+            "deliveryid",
+            "pub_sspid",
+            "pub_as_adspaceid",
+            "pub_as_domain",
+            "pub_as_dimensions",
+            "pub_as_position",
+            "device_os",
+            "device_model",
+            "user_ip",
+            "user_market",
+            "user_city",
+            "domain_position"
+        ],
+        "numeric": [
+            "dayofweek",
+            "hour",
+            "click",
+            "dayofweek_hour",
+            "weight"
+        ]
+    },
+    "stats": {
+        "dayofweek": {
+            "count": 6730676.0,
+            "mean": 3.0283898675,
+            "std": 1.8486329797,
+            "min": 0.0,
+            "max": 6.0
+        },
+        "hour": {
+            "count": 6730676.0,
+            "mean": 13.8170766205,
+            "std": 5.3803852228,
+            "min": 0.0,
+            "max": 23.0
+        },
+        "click": {
+            "count": 6730676.0,
+            "mean": 0.0012122111,
+            "std": 0.0347957153,
+            "min": 0.0,
+            "max": 1.0
+        },
+        "dayofweek_hour": {
+            "count": 6730676.0,
+            "mean": 86.4984334412,
+            "std": 44.6615070085,
+            "min": 0.0,
+            "max": 167.0
+        },
+        "weight": {
+            "count": 6730676.0,
+            "mean": null,
+            "std": null,
+            "min": 0.5004882812,
+            "max": 554.0
+        },
+        "deliveryid": {
+            "count": 6730676,
+            "unique": 6730676
+        },
+        "pub_sspid": {
+            "count": 6730676,
+            "unique": 4
+        },
+        "pub_as_adspaceid": {
+            "count": 6730676,
+            "unique": 531
+        },
+        "pub_as_domain": {
+            "count": 6730676,
+            "unique": 337
+        },
+        "pub_as_dimensions": {
+            "count": 6730676,
+            "unique": 27
+        },
+        "pub_as_position": {
+            "count": 6730676,
+            "unique": 6
+        },
+        "device_os": {
+            "count": 6730676,
+            "unique": 40
+        },
+        "device_model": {
+            "count": 6730676,
+            "unique": 690
+        },
+        "user_ip": {
+            "count": 6730676,
+            "unique": 944139
+        },
+        "user_market": {
+            "count": 6730676,
+            "unique": 10
+        },
+        "user_city": {
+            "count": 6730676,
+            "unique": 2254
+        },
+        "domain_position": {
+            "count": 6730676,
+            "unique": 733
+        }
+    },
+    "weights": {
+        "count": {
+            "0": 6722517,
+            "1": 8159
+        }
+    }
+}
